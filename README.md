@@ -1,4 +1,4 @@
-# latex-action
+# asciidoc-action
 
 > Compile asciidoc project using docker and make
 
@@ -17,7 +17,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Compile asciidoctor document
-        uses: lmoesle/asciidoctor-action@latest
+        uses: lmoesle/asciidoc-action@latest
       - name: Upload Pdf
         uses: actions/upload-artifact@v2
         with:

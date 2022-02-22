@@ -1,4 +1,4 @@
-name: 'asciidoctor-action'
+name: 'asciidoc-action'
 description: 'Compile asciidoc project using docker and make'
 author: 'Lukas Mösle'
 runs:
