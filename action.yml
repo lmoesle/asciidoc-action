@@ -1,0 +1,9 @@
+name: 'asciidoctor-action'
+description: 'Compile asciidoc project using docker and make'
+author: 'Lukas Mösle'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'book'
+  color: 'blue'
